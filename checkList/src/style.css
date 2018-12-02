@@ -1,0 +1,26 @@
+.input {
+  border: 1px solid darkorange;
+}
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  color: brown;
+  transition: opacity 1s ease-in;
+}
+.fade-enter-done {
+  opacity: 1;
+  color: brown;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+  color: yellow;
+}
+.fade-exit-done {
+  opacity: 0;
+}
